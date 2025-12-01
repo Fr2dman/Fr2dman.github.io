@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptive Smart Factory | Project Detail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link <!DOCTYPE html>
+    <html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adaptive Smart Factory | Project Detail</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@300;500;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/project-detail.css">
+    </head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="back-nav">
+        <a href="index.html#projects" class="back-link">← Back to Projects</a>
+    </nav>
+
+    <header class="project-hero">
+        <div class="project-hero-content">
+            <h1>Adaptive Smart Factory</h1>
+            <p class="subtitle">ROS2-powered smart-factory cell with AI vision & voice</p>
+
+            <div class="project-meta">
+                <div class="meta-item">
+                    <span class="meta-label">Role</span>
+                    <span class="meta-value">Robotics Perception & Manipulation / System Integrator</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Period</span>
+                    <span class="meta-value">2025.05.18 ~ 2025.05.22</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Team</span>
+                    <span class="meta-value">2</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Tech</span>
+                    <span class="meta-value">ROS2 · Python · YOLO</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="project-content">
+        <section class="content-section">
+            <h2>Project Overview</h2>
+            <p>
+                이 프로젝트는 ROS2를 기반으로 한 스마트 팩토리 셀을 구현한 것입니다.
+                Dobot 매니퓰레이터, 컨베이어 벨트, AI 비전 카메라, 음성 인식 모듈을 통합하여
+                지능형 공정 자동화 시스템을 구축했습니다.
+            </p>
+            <p>
+                사용자는 웹 대시보드를 통해 실시간으로 공정 상태를 모니터링하고 제어할 수 있으며,
+                AI 비전을 통해 물체를 인식하고 분류하여 자동으로 작업을 수행합니다.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>Key Features</h2>
+            <ul>
+                <li><strong>ROS2 Integration:</strong> 모든 하드웨어 컴포넌트(로봇팔, 컨베이어, 센서)를 ROS2 노드로 통합 제어</li>
+                <li><strong>AI Vision:</strong> YOLO 기반 객체 인식으로 물품 분류 및 위치 추적</li>
+                <li><strong>Voice Control:</strong> 음성 명령을 통한 공정 제어 및 상태 조회</li>
+                <li><strong>Real-time Dashboard:</strong> 웹 기반의 실시간 모니터링 및 제어 인터페이스</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>My Role & Contributions</h2>
+            <p>
+                저는 이 프로젝트에서 <strong>시스템 통합 및 백엔드 개발</strong>을 담당했습니다.
+            </p>
+            <ul>
+                <li>ROS2 통신 아키텍처 설계 및 노드 간 데이터 흐름 최적화</li>
+                <li>웹 대시보드와 ROS2 시스템 간의 WebSocket 브리지 구현</li>
+                <li>Dobot 제어 알고리즘 및 경로 계획 구현</li>
+                <li>전체 시스템 통합 테스트 및 디버깅</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>Tech Stack</h2>
+            <div class="tech-stack">
+                <span class="tech-tag">ROS2 (Humble)</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">OpenCV</span>
+                <span class="tech-tag">YOLOv8</span>
+                <span class="tech-tag">PyQt5</span>
+                <span class="tech-tag">MediaPipe</span>
+                <span class="tech-tag">TCP Socket</span>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Project Gallery</h2>
+            <div class="two-column-gallery">
+                <div class="gallery-item">
+                    <img src="assets/project-adaptive-smart-factory/Classification.png" alt="AI Vision Classification">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/project-adaptive-smart-factory/Pick_and_Place.png" alt="Pick and Place Operation">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/project-adaptive-smart-factory/Gesture_control.png"
+                        alt="Gesture Control Interface">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/project-adaptive-smart-factory/Execute.png" alt="System Execution">
+                </div>
+            </div>
+        </section>
+
+        <div class="github-link-container">
+            <a href="https://github.com/Fr2dman/adaptive-smart-factory-ros2" target="_blank" class="github-button">
+                View on GitHub
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

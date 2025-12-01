@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Chamber | Project Detail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link <!DOCTYPE html>
+    <html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Chamber | Project Detail</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@300;500;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/project-detail.css">
+    </head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="back-nav">
+        <a href="index.html#projects" class="back-link">← Back to Projects</a>
+    </nav>
+
+    <header class="project-hero">
+        <div class="project-hero-content">
+            <h1>Project Chamber</h1>
+            <p class="subtitle">Smart AC Simulator & SAC Agent Generator</p>
+
+            <div class="project-meta">
+                <div class="meta-item">
+                    <span class="meta-label">Role</span>
+                    <span class="meta-value">RL Engineer, PM</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Period</span>
+                    <span class="meta-value">2025.07.07 ~ 2025.08.18</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Team</span>
+                    <span class="meta-value">6</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Tech</span>
+                    <span class="meta-value">Python · RL · MQTT</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="project-content">
+        <section class="content-section">
+            <h2>Project Overview</h2>
+            <p>
+                멀티존(4존) 실내 환경을 모사하는 경량 HVAC 시뮬레이터와 이를 제어하기 위한
+                SAC(Soft Actor-Critic) 강화학습 에이전트 생성 파이프라인입니다.
+                에너지 효율과 재실자의 쾌적도를 동시에 만족시키는 최적의 제어 정책을 학습하는 것을 목표로 합니다.
+            </p>
+            <img src="assets/project-chamber/SystemFlow.png" alt="System Architecture" class="project-image">
+        </section>
+
+        <section class="content-section">
+            <h2>Key Features</h2>
+            <ul>
+                <li><strong>Multi-zone Physics Engine:</strong> 존 에너지/수분 수지, 공기 혼합, 열전달 등을 고려한 정밀 시뮬레이션</li>
+                <li><strong>Gymnasium Environment:</strong> 강화학습 표준 인터페이스(Gymnasium) 호환 환경 제공</li>
+                <li><strong>SAC Agent Training:</strong> Stable Baselines3를 활용한 SAC 알고리즘 학습 파이프라인</li>
+                <li><strong>Reward Engineering:</strong> 에너지 소비 최소화 및 쾌적도(PMV 등) 최대화를 위한 복합 보상 함수 설계</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>My Role & Contributions</h2>
+            <p>
+                이 프로젝트에서 <strong>시뮬레이터 개발 및 강화학습 모델링</strong>을 담당했습니다.
+            </p>
+            <ul>
+                <li>HVAC 물리 엔진(열역학적 모델링) 구현 및 검증</li>
+                <li>Custom Gym Environment 설계 및 구현</li>
+                <li>SAC 하이퍼파라미터 튜닝 및 학습 성능 최적화</li>
+                <li>다양한 시나리오 기반의 테스트 스위트 작성</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>Tech Stack</h2>
+            <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Stable Baselines3</span>
+                <span class="tech-tag">Gymnasium</span>
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">NumPy</span>
+                <span class="tech-tag">MQTT</span>
+                <span class="tech-tag">MediaPipe</span>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Hardware & Product</h2>
+            <div class="two-column-gallery">
+                <div class="gallery-item">
+                    <img src="assets/project-chamber/Product.gif" alt="Product Demo">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/project-chamber/HW.gif" alt="Hardware Setup">
+                </div>
+            </div>
+            <img src="assets/project-chamber/HW_detail.png" alt="Hardware Details" class="project-image">
+        </section>
+
+        <section class="content-section">
+            <h2>Motion Recognition System</h2>
+            <div class="three-column-gallery">
+                <div class="gallery-item">
+                    <img src="assets/project-chamber/Motion_recog1.gif" alt="Motion Recognition 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/project-chamber/Motion_recog2.gif" alt="Motion Recognition 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/project-chamber/Motion_recog3.gif" alt="Motion Recognition 3">
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Dashboard Interface</h2>
+            <div class="two-column-gallery">
+                <div class="gallery-item">
+                    <img src="assets/project-chamber/Dashboard_대시보드.png" alt="Main Dashboard">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/project-chamber/Dashboard_기기제어.png" alt="Device Control">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/project-chamber/Dashboard_사용구역관리.png" alt="Zone Management">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/project-chamber/Dashboard_사용령보고서.png" alt="Usage Report">
+                </div>
+            </div>
+            <img src="assets/project-chamber/Dashboard_피드백모니터.png" alt="Feedback Monitor" class="project-image">
+        </section>
+
+        <div class="github-link-container">
+            <a href="https://github.com/Fr2dman/Project-Chamber" target="_blank" class="github-button">
+                View on GitHub
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
